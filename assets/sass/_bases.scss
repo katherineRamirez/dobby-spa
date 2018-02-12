@@ -1,0 +1,60 @@
+.circle-img{
+	@include circle(200px);
+	margin-left: 3em;
+	position: relative;
+	bottom: 3em;
+}
+.nav{
+	background: $color-nav;
+}
+.nav li a{
+	color: $color_container_dos;
+	margin-left: 7.5em;
+}
+.center{
+	text-align: center;
+	margin-top: 0;
+}
+.container_dos{
+	background: $color_container_dos;
+	border: 1px solid $color-nav;
+}
+.btn-readMore{
+	background: $color-letra-footer;
+	margin-left: 7em;
+	margin-top: $margin-top;
+	margin-bottom: 2em;
+	border: none;
+}
+.image{
+	@include bordes();
+	margin-top: $margin-top;
+}
+.container_tres{
+	background: $color_container_tres;
+	color: $color-letra-footer;
+}
+.container-footer{
+	background: $color-nav;
+	color: $color-letra-footer;
+}
+.circle-redSocial{
+	@include circle(100px);
+	background: $color_container_dos;
+	margin-top: $margin-top;
+}
+.title{
+	margin-top: 3em;
+}
+.title-welcome{
+	color: $color-text-welcome;
+	text-align: center;
+	margin-bottom: 2em;
+}
+.ul-welcome{
+	margin-bottom: 9em;
+	margin-top: 2em;
+}
+.text-contact{
+	margin-left: 5em;
+}

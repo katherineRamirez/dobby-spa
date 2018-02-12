@@ -1,0 +1,10 @@
+@mixin circle($size) { 
+  border-radius: 50%;
+  border: 7px solid $color-letra-footer;
+  width: $size;
+  height: $size;
+}
+
+@mixin bordes() {
+  border-radius: 5%;
+}
